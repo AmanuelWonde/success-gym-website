@@ -5,7 +5,10 @@ import {
   MinusCircle,
   ShieldCheck,
 } from "lucide-react";
-
+import strengthImage from "../assets/strenght-program.jpg";
+import bodyBuildingImage from "../assets/body-building.jpg";
+import aerobicsImage from "../assets/aerobics.webp";
+import taekwondo from "../assets/karate.webp";
 export const prices: {
   period: string;
   price: string;
@@ -19,26 +22,26 @@ export const programs: {
   description: string;
 }[] = [
   {
-    image: "/src/assets/strength-training.jpg",
+    image: strengthImage,
     icon: Dumbbell,
     title: "Strength Training",
     description: "Build muscle and enhance endurance with expert guidance.",
   },
   {
-    image: "/src/assets/body-building.jpg",
+    image: bodyBuildingImage,
     icon: MinusCircle,
     title: "Body Building",
     description:
       "Sculpt your physique with professional bodybuilding routines.",
   },
   {
-    image: "/src/assets/aerobics.webp",
+    image: aerobicsImage,
     icon: HeartPulse,
     title: "Aerobics",
     description: "Boost stamina and burn calories with high-energy workouts.",
   },
   {
-    image: "/src/assets/karate.webp",
+    image: taekwondo,
     icon: ShieldCheck,
     title: "Taekwondo",
     description: "Master self-defense techniques with disciplined training.",

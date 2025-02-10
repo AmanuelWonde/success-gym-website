@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import TrainerCard from "./cards/trainer-card";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-
+import trainerBiniImage from "../assets/trainers/bini.jpg";
 const TrainersSection = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false }, [Autoplay()]);
 
@@ -23,21 +23,21 @@ const TrainersSection = () => {
             <TrainerCard
               name="Biniyam Nega"
               about="Biniyam Nega, a highly experienced gym trainer with 10 years of expertise, has transformed hundreds of lives through personalized fitness programs. He has worked alongside international trainers, bringing global techniques to his training methods. 💪🔥"
-              image="/src/assets/trainers/bini.jpg"
+              image={trainerBiniImage}
             />
           </div>
           <div className=" min-w-0 flex-none w-full pt-16 flex justify-center">
             <TrainerCard
               name="Biniyam Nega"
               about="Biniyam Nega, a highly experienced gym trainer with 10 years of expertise, has transformed hundreds of lives through personalized fitness programs. He has worked alongside international trainers, bringing global techniques to his training methods. 💪🔥"
-              image="/src/assets/trainers/bini.jpg"
+              image={trainerBiniImage}
             />
           </div>
           <div className=" min-w-0 flex-none w-full pt-16 flex justify-center">
             <TrainerCard
               name="Biniyam Nega"
               about="Biniyam Nega, a highly experienced gym trainer with 10 years of expertise, has transformed hundreds of lives through personalized fitness programs. He has worked alongside international trainers, bringing global techniques to his training methods. 💪🔥"
-              image="/src/assets/trainers/bini.jpg"
+              image={trainerBiniImage}
             />
           </div>
         </div>
