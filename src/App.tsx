@@ -9,6 +9,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import TrainersSection from "./components/trainers-section";
+import AboutUsSection from "./components/about-us-section";
+import BranchsSection from "./components/branchs-section";
+import GallerySection from "./components/gallery-section";
+import { StatisticsSection } from "./components/statistics-section";
 
 function App() {
   useEffect(() => {
@@ -22,9 +26,13 @@ function App() {
     <main className="max-w-screen w-full overflow-x-hidden">
       <Navbar />
       <HeroSection />
+      <StatisticsSection />
+      <AboutUsSection />
       <ProgramsSection />
       <OurQualitiesSection />
+      <BranchsSection />
       <TrainersSection />
+      <GallerySection />
       <PriceSection />
       <Footer />
     </main>

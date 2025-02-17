@@ -1,14 +1,8 @@
-import {
-  Dumbbell,
-  HeartPulse,
-  LucideIcon,
-  MinusCircle,
-  ShieldCheck,
-} from "lucide-react";
-import strengthImage from "../assets/strenght-program.jpg";
-import bodyBuildingImage from "../assets/body-building.jpg";
-import aerobicsImage from "../assets/aerobics.webp";
-import taekwondo from "../assets/karate.webp";
+import { Flame, HeartPulse, LucideIcon, Music, Repeat } from "lucide-react";
+import aerobicsImage from "../assets/gallery/photo_2025-02-17_14-22-58.jpg";
+import circuitImage from "../assets/gallery/photo_2025-02-17_14-22-08.jpg";
+import danceFitnessImage from "../assets/gallery/photo_2025-02-17_14-22-53.jpg";
+import crossFitImage from "../assets/gallery/photo_2025-02-17_14-23-03.jpg";
 export const prices: {
   period: string;
   price: string;
@@ -22,29 +16,31 @@ export const programs: {
   description: string;
 }[] = [
   {
-    image: strengthImage,
-    icon: Dumbbell,
-    title: "Strength Training",
-    description: "Build muscle and enhance endurance with expert guidance.",
+    image: circuitImage,
+    icon: Repeat,
+    title: "Circuit",
+    description:
+      "Engage in high-intensity full-body workouts for endurance and strength.",
   },
   {
-    image: bodyBuildingImage,
-    icon: MinusCircle,
-    title: "Body Building",
+    image: danceFitnessImage,
+    icon: Music,
+    title: "Dance Fitness",
     description:
-      "Sculpt your physique with professional bodybuilding routines.",
+      "Stay fit with fun and energetic dance-based workout sessions.",
+  },
+  {
+    image: crossFitImage,
+    icon: Flame,
+    title: "Cross Fit",
+    description:
+      "Push your limits with dynamic and functional high-intensity training.",
   },
   {
     image: aerobicsImage,
     icon: HeartPulse,
     title: "Aerobics",
     description: "Boost stamina and burn calories with high-energy workouts.",
-  },
-  {
-    image: taekwondo,
-    icon: ShieldCheck,
-    title: "Taekwondo",
-    description: "Master self-defense techniques with disciplined training.",
   },
 ];
 
@@ -64,5 +60,23 @@ export const qualities: { title: string; description: string }[] = [
   {
     title: "Experienced Trainers",
     description: "Get expert guidance from certified fitness professionals.",
+  },
+];
+export const stat: { stat: string; info: string }[] = [
+  {
+    stat: "20K+",
+    info: "Socail Media Followers",
+  },
+  {
+    stat: "10+",
+    info: "Years Of Experience",
+  },
+  {
+    stat: "2",
+    info: "Branches",
+  },
+  {
+    stat: "7+",
+    info: "Experienced Trainers",
   },
 ];

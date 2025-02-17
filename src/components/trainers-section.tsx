@@ -1,19 +1,13 @@
-import { useEffect } from "react";
 import TrainerCard from "./cards/trainer-card";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import trainerBiniImage from "../assets/trainers/bini.jpg";
 const TrainersSection = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: false }, [Autoplay()]);
+  const [emblaRef, _emblaApi] = useEmblaCarousel({ loop: false }, [Autoplay()]);
 
-  useEffect(() => {
-    if (emblaApi) {
-      console.log(emblaApi.slideNodes()); // Access API
-    }
-  }, [emblaApi]);
   return (
     <section
-      className=" p-8 md:p-16 bg-blackSecondary space-y-16 text-white"
+      className=" p-8 md:p-16 bg-blackSecondary bg-opacity-95 space-y-16 text-white"
       id="trainers"
     >
       <h1 className=" text-5xl font-bold text-center">Our Trainers</h1>

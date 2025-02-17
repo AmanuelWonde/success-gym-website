@@ -1,9 +1,11 @@
 import OurQualitiesCard from "./cards/our-qualities-card";
-import gymImage1 from "../assets/gym-image-1.jpg";
+import gymImage1 from "../assets/gallery/photo_2025-02-17_14-23-41.jpg";
 import gymImage2 from "../assets/gym-image-2.jpg";
 import gymImage3 from "../assets/gym-image-3.jpg";
 import gymImage4 from "../assets/gym-image-4.jpg";
+
 import { qualities } from "../contents/main";
+import CommunitySection from "./community-section";
 const OurQualitiesSection = () => {
   return (
     <section
@@ -11,7 +13,7 @@ const OurQualitiesSection = () => {
       id="why-choose-us"
     >
       <h1 className="text-4xl md:text-5xl font-bold text-center">
-        Why Choose Us
+        WHY CHOOSE US
       </h1>
       <div className=" w-full md:flex md:flex-row-reverse justify-between">
         <div className=" grid gap-2 grid-cols-2">
@@ -59,6 +61,7 @@ const OurQualitiesSection = () => {
           ))}
         </div>
       </div>
+      <CommunitySection />
     </section>
   );
 };
