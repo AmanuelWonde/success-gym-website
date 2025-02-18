@@ -3,11 +3,15 @@ import aerobicsImage from "../assets/gallery/photo_2025-02-17_14-22-58.jpg";
 import circuitImage from "../assets/gallery/photo_2025-02-17_14-22-08.jpg";
 import danceFitnessImage from "../assets/gallery/photo_2025-02-17_14-22-53.jpg";
 import crossFitImage from "../assets/gallery/photo_2025-02-17_14-23-03.jpg";
-export const prices: {
-  period: string;
-  price: string;
-  includedServices: string[];
-}[] = [];
+
+import biniPhoto from "../assets/trainers/biniyam.jpg";
+import fasikaPhoto from "../assets/trainers/fasika.jpg";
+import sisayPhoto from "../assets/trainers/sisay.jpg";
+import ermiyasPhoto from "../assets/trainers/ermiyas.jpg";
+import kenediPhoto from "../assets/trainers/kenedi.jpg";
+import nahomPhoto from "../assets/trainers/nahom.jpg";
+import natnaelPhoto from "../assets/trainers/natnael.jpg";
+import demsPhoto from "../assets/trainers/dems.jpg";
 
 export const programs: {
   image: string;
@@ -76,7 +80,58 @@ export const stat: { stat: string; info: string }[] = [
     info: "Branches",
   },
   {
-    stat: "7+",
+    stat: "8+",
     info: "Experienced Trainers",
+  },
+];
+
+export const trainers: { name: string; about: string; image: string }[] = [
+  {
+    name: "Coach Biniyam Nega",
+    about:
+      "Biniyam Nega, a highly experienced gym trainer with 10 years of expertise, has transformed hundreds of lives through personalized fitness programs. He has worked alongside international trainers, bringing global techniques to his training methods. 💪🔥",
+    image: biniPhoto,
+  },
+  {
+    name: "Coach Fasika",
+    about:
+      "Coach Fasika is a dedicated fitness trainer known for his structured workout programs and commitment to helping clients reach their peak performance. With years of experience, he has guided many individuals to achieve their fitness goals through discipline and tailored training. 🏋️‍♂️🔥",
+    image: fasikaPhoto,
+  },
+  {
+    name: "Coach Ermiyas Tades",
+    about:
+      "Coach Ermiyas Tades is an inspiring fitness trainer who transformed his own life by overcoming obesity. His journey from struggling with weight to becoming a top fitness coach serves as a powerful example for many. He specializes in weight loss programs and strength training. 💪🏆",
+    image: ermiyasPhoto,
+  },
+  {
+    name: "Coach Sisay Azmeraw",
+    about:
+      "Coach Sisay Azmeraw brings a wealth of experience in strength training and endurance workouts. He is passionate about pushing his clients beyond their limits, helping them build both physical and mental toughness. 🏆🔥",
+    image: sisayPhoto,
+  },
+  {
+    name: "Coach Nahom Ketema",
+    about:
+      "Coach Nahom Ketema is a performance-driven trainer with expertise in muscle building and athletic conditioning. His personalized training programs help individuals achieve optimal fitness levels while focusing on proper technique and injury prevention. 🏋️‍♂️🏅",
+    image: nahomPhoto,
+  },
+  {
+    name: "Coach Kenedi Grema",
+    about:
+      "Coach Kenedi Grema is known for his dynamic training sessions that combine functional fitness, agility drills, and strength training. His high-energy approach keeps clients motivated and engaged throughout their fitness journey. 🔥💪",
+    image: kenediPhoto,
+  },
+  {
+    name: "Coach Natnael Assefa",
+    about:
+      "Coach Natnael Assefa is a well-rounded fitness expert specializing in endurance training and body sculpting. His client-centered coaching style helps individuals gain confidence, build strength, and maintain a healthy lifestyle. 🏃‍♂️💯",
+    image: natnaelPhoto,
+  },
+  {
+    name: "Coach Dems",
+    about:
+      "Coach Dems is a dedicated fitness professional with a strong focus on functional training and mobility exercises. He believes in holistic fitness, ensuring his clients not only look strong but also feel agile and energetic in their daily lives. 💪⚡",
+    image: demsPhoto,
   },
 ];

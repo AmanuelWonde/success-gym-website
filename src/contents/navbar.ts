@@ -7,13 +7,17 @@ export const NavbarLists: NavbarList[] = [
     label: "Home",
     link: "#home",
   },
+  {
+    label: "About us",
+    link: "#about-us",
+  },
 
   {
     label: "Programs",
     link: "#programs",
   },
   {
-    label: "Why Choose Us",
+    label: "Why choose us",
     link: "#why-choose-us",
   },
   {
@@ -21,7 +25,11 @@ export const NavbarLists: NavbarList[] = [
     link: "#trainers",
   },
   {
-    label: "Prices",
+    label: "Pricing",
     link: "#prices",
+  },
+  {
+    label: "Gallery",
+    link: "#gallery",
   },
 ];

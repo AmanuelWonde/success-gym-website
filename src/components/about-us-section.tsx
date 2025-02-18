@@ -5,7 +5,10 @@ import img3 from "../assets/about-us/bini-img-3.jpg";
 
 const AboutUsSection = () => {
   return (
-    <section className=" p-4 md:p-16 text-white bg-blackSecondary bg-opacity-95 space-y-16">
+    <section
+      className=" p-4 md:p-16 text-white bg-blackSecondary bg-opacity-95 space-y-16"
+      id="about-us"
+    >
       <h1 className="text-4xl md:text-5xl font-bold text-center md:hidden">
         ABOUT US
       </h1>
