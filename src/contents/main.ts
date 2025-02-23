@@ -2,7 +2,7 @@ import { Flame, HeartPulse, LucideIcon, Music, Repeat } from "lucide-react";
 import aerobicsImage from "../assets/gallery/photo_2025-02-17_14-22-58.jpg";
 import circuitImage from "../assets/gallery/photo_2025-02-17_14-22-08.jpg";
 import danceFitnessImage from "../assets/gallery/photo_2025-02-17_14-22-53.jpg";
-import crossFitImage from "../assets/gallery/photo_2025-02-17_14-23-03.jpg";
+import crossFitImage from "../assets/cross-fit.jpg";
 
 import biniPhoto from "../assets/trainers/biniyam.jpg";
 import fasikaPhoto from "../assets/trainers/fasika.jpg";
