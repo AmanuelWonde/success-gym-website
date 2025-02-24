@@ -46,7 +46,7 @@ const PriceSection = () => {
 
         <div className=" grid grid-rows-1 gap-8">
           <div>
-            <p className=" text-xl font-bold p-6">Ayat Brach Price</p>
+            <p className=" text-xl font-bold p-6">Ayat Adebabay Brach Price</p>
 
             <div className=" grid grid-cols-2 gap-6 ">
               {ayatBranchPrice.map((item, index) => (
